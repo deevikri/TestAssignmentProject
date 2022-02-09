@@ -1,2 +1,2 @@
-# TestAssignmentProject
-# WeatherAutomation - AccuWeather and OpenWeather API
+# TestAssigment
+This Repo is for Test Assigment

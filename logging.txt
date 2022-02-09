@@ -1,0 +1,410 @@
+Request method:	GET
+Request URI:	https://api.openweathermap.org/geo/1.0/direct?appid=7fe67bf08c80ded756e598d6f8fedaea&q=Chandigarh&unit=metric
+Proxy:			<none>
+Request params:	<none>
+Query params:	appid=7fe67bf08c80ded756e598d6f8fedaea
+				q=Chandigarh
+				unit=metric
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Server: openresty
+Date: Wed, 09 Feb 2022 00:25:30 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 580
+Connection: keep-alive
+X-Cache-Key: /geo/1.0/direct?q=chandigarh&unit=metric
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Methods: GET, POST
+
+[
+    {
+        "name": "Chandigarh",
+        "local_names": {
+            "uk": "Чандігарх",
+            "zh": "昌迪加尔中央直辖区",
+            "de": "Chandigarh",
+            "ar": "شانديغار",
+            "es": "Chandigarh",
+            "fr": "Chandigarh",
+            "cs": "Čandígarh",
+            "ur": "چندی گڑھ",
+            "kn": "ಚಂಡೀಗಡ",
+            "hi": "चण्डीगढ़",
+            "ko": "찬디가르",
+            "ku": "Çandîgar",
+            "ml": "ചണ്ഡീഗഢ്",
+            "en": "Chandigarh",
+            "ja": "チャンディーガル",
+            "ta": "சண்டிகர்",
+            "he": "צ'אנדיגאר",
+            "ru": "Чандигарх",
+            "eo": "Ĉandigaro",
+            "pa": "ਚੰਡੀਗੜ੍ਹ"
+        },
+        "lat": 30.7334421,
+        "lon": 76.7797143,
+        "country": "IN"
+    }
+]
+Request method:	GET
+Request URI:	https://api.openweathermap.org/data/2.5/weather?appid=7fe67bf08c80ded756e598d6f8fedaea&lat=30.733442&lon=76.77972&units=metric
+Proxy:			<none>
+Request params:	<none>
+Query params:	appid=7fe67bf08c80ded756e598d6f8fedaea
+				lat=30.733442
+				lon=76.77972
+				units=metric
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Server: openresty
+Date: Wed, 09 Feb 2022 00:25:31 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 503
+Connection: keep-alive
+X-Cache-Key: /data/2.5/weather?lat=30.73&lon=76.78&units=metric
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Methods: GET, POST
+
+{
+    "coord": {
+        "lon": 76.7797,
+        "lat": 30.7334
+    },
+    "weather": [
+        {
+            "id": 804,
+            "main": "Clouds",
+            "description": "overcast clouds",
+            "icon": "04n"
+        }
+    ],
+    "base": "stations",
+    "main": {
+        "temp": 14.18,
+        "feels_like": 13.09,
+        "temp_min": 14.18,
+        "temp_max": 14.18,
+        "pressure": 1013,
+        "humidity": 55,
+        "sea_level": 1013,
+        "grnd_level": 972
+    },
+    "visibility": 10000,
+    "wind": {
+        "speed": 3.09,
+        "deg": 70,
+        "gust": 3.51
+    },
+    "clouds": {
+        "all": 100
+    },
+    "dt": 1644366221,
+    "sys": {
+        "country": "IN",
+        "sunrise": 1644370748,
+        "sunset": 1644410108
+    },
+    "timezone": 19800,
+    "id": 1274746,
+    "name": "Chandigarh",
+    "cod": 200
+}
+Request method:	GET
+Request URI:	https://api.openweathermap.org/data/2.5/weather?appid=7fe67bf08c80ded756e598d6f8fedaea&lat=30.733442&lon=76.77972&units=metric
+Proxy:			<none>
+Request params:	<none>
+Query params:	appid=7fe67bf08c80ded756e598d6f8fedaea
+				lat=30.733442
+				lon=76.77972
+				units=metric
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Server: openresty
+Date: Wed, 09 Feb 2022 00:25:31 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 503
+Connection: keep-alive
+X-Cache-Key: /data/2.5/weather?lat=30.73&lon=76.78&units=metric
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Methods: GET, POST
+
+{
+    "coord": {
+        "lon": 76.7797,
+        "lat": 30.7334
+    },
+    "weather": [
+        {
+            "id": 804,
+            "main": "Clouds",
+            "description": "overcast clouds",
+            "icon": "04n"
+        }
+    ],
+    "base": "stations",
+    "main": {
+        "temp": 14.18,
+        "feels_like": 13.09,
+        "temp_min": 14.18,
+        "temp_max": 14.18,
+        "pressure": 1013,
+        "humidity": 55,
+        "sea_level": 1013,
+        "grnd_level": 972
+    },
+    "visibility": 10000,
+    "wind": {
+        "speed": 3.09,
+        "deg": 70,
+        "gust": 3.51
+    },
+    "clouds": {
+        "all": 100
+    },
+    "dt": 1644366221,
+    "sys": {
+        "country": "IN",
+        "sunrise": 1644370748,
+        "sunset": 1644410108
+    },
+    "timezone": 19800,
+    "id": 1274746,
+    "name": "Chandigarh",
+    "cod": 200
+}
+Request method:	GET
+Request URI:	https://api.openweathermap.org/geo/1.0/direct?appid=7fe67bf08c80ded756e598d6f8fedaea&q=Mumbai&unit=metric
+Proxy:			<none>
+Request params:	<none>
+Query params:	appid=7fe67bf08c80ded756e598d6f8fedaea
+				q=Mumbai
+				unit=metric
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Server: openresty
+Date: Wed, 09 Feb 2022 00:25:48 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 901
+Connection: keep-alive
+X-Cache-Key: /geo/1.0/direct?q=mumbai&unit=metric
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Methods: GET, POST
+
+[
+    {
+        "name": "Mumbai",
+        "local_names": {
+            "uk": "Мумбаї",
+            "yi": "מומביי",
+            "kn": "ಮುಂಬೈ",
+            "ka": "მუმბაი",
+            "pl": "Mumbaj",
+            "ks": "بَمبَے",
+            "or": "ମୁମ୍ବାଇ",
+            "en": "Mumbai",
+            "zh": "孟买",
+            "te": "ముంబై",
+            "si": "මුම්බායි",
+            "cs": "Bombaj",
+            "io": "Mumbai",
+            "sd": "ممبئي",
+            "de": "Mumbai",
+            "ko": "뭄바이",
+            "lt": "Mumbajus",
+            "ps": "ممبای",
+            "sk": "Bombaj",
+            "eo": "Mumbajo",
+            "mr": "मुंबई",
+            "he": "מומבאי",
+            "es": "Bombay",
+            "pa": "ਮੁੰਬਈ",
+            "bn": "মুম্বই",
+            "az": "Mumbay",
+            "gu": "મુંબઈ",
+            "hi": "मुंबई",
+            "ur": "ممبئی",
+            "fa": "مومبای",
+            "ia": "Mumbai",
+            "ja": "ムンバイ",
+            "ru": "Мумбаи",
+            "ml": "മുംബൈ",
+            "sr": "Мумбај",
+            "th": "มุมไบ",
+            "oc": "Mumbai",
+            "fr": "Bombay",
+            "ta": "மும்பை",
+            "el": "Μουμπάι",
+            "ar": "مومباي"
+        },
+        "lat": 19.0759899,
+        "lon": 72.8773928,
+        "country": "IN",
+        "state": "Maharashtra"
+    }
+]
+Request method:	GET
+Request URI:	https://api.openweathermap.org/data/2.5/weather?appid=7fe67bf08c80ded756e598d6f8fedaea&lat=19.07599&lon=72.877396&units=metric
+Proxy:			<none>
+Request params:	<none>
+Query params:	appid=7fe67bf08c80ded756e598d6f8fedaea
+				lat=19.07599
+				lon=72.877396
+				units=metric
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Server: openresty
+Date: Wed, 09 Feb 2022 00:25:49 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 457
+Connection: keep-alive
+X-Cache-Key: /data/2.5/weather?lat=19.08&lon=72.88&units=metric
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Methods: GET, POST
+
+{
+    "coord": {
+        "lon": 72.8774,
+        "lat": 19.076
+    },
+    "weather": [
+        {
+            "id": 721,
+            "main": "Haze",
+            "description": "haze",
+            "icon": "50n"
+        }
+    ],
+    "base": "stations",
+    "main": {
+        "temp": 21,
+        "feels_like": 21.32,
+        "temp_min": 21,
+        "temp_max": 21,
+        "pressure": 1012,
+        "humidity": 83
+    },
+    "visibility": 2500,
+    "wind": {
+        "speed": 1.54,
+        "deg": 100
+    },
+    "clouds": {
+        "all": 40
+    },
+    "dt": 1644366241,
+    "sys": {
+        "type": 1,
+        "id": 9052,
+        "country": "IN",
+        "sunrise": 1644370800,
+        "sunset": 1644411930
+    },
+    "timezone": 19800,
+    "id": 8131499,
+    "name": "Konkan Division",
+    "cod": 200
+}
+Request method:	GET
+Request URI:	https://api.openweathermap.org/data/2.5/weather?appid=7fe67bf08c80ded756e598d6f8fedaea&lat=19.07599&lon=72.877396&units=metric
+Proxy:			<none>
+Request params:	<none>
+Query params:	appid=7fe67bf08c80ded756e598d6f8fedaea
+				lat=19.07599
+				lon=72.877396
+				units=metric
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Server: openresty
+Date: Wed, 09 Feb 2022 00:25:49 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 457
+Connection: keep-alive
+X-Cache-Key: /data/2.5/weather?lat=19.08&lon=72.88&units=metric
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Methods: GET, POST
+
+{
+    "coord": {
+        "lon": 72.8774,
+        "lat": 19.076
+    },
+    "weather": [
+        {
+            "id": 721,
+            "main": "Haze",
+            "description": "haze",
+            "icon": "50n"
+        }
+    ],
+    "base": "stations",
+    "main": {
+        "temp": 21,
+        "feels_like": 21.32,
+        "temp_min": 21,
+        "temp_max": 21,
+        "pressure": 1012,
+        "humidity": 83
+    },
+    "visibility": 2500,
+    "wind": {
+        "speed": 1.54,
+        "deg": 100
+    },
+    "clouds": {
+        "all": 40
+    },
+    "dt": 1644366241,
+    "sys": {
+        "type": 1,
+        "id": 9052,
+        "country": "IN",
+        "sunrise": 1644370800,
+        "sunset": 1644411930
+    },
+    "timezone": 19800,
+    "id": 8131499,
+    "name": "Konkan Division",
+    "cod": 200
+}
