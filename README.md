@@ -1,4 +1,4 @@
-Weather Automation Project
+**Weather Automation Project**
 
 Introduction: This is Assignment of Weather Comparison of given city captured from Accuweather Web UI and against " api.openweathermap.org" api request. This Test Automation Framework is developed with Selenium+RestAssured+Cucumber+ExtentReport+Maven.
 
