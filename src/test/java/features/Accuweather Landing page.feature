@@ -4,8 +4,9 @@ Feature: Verify the Weather information of Various Cities
 Scenario Outline: Verify Weather information of Various Cities through Accuwether wesite 
 Given User Enters the Url in the browser 
 Then  Landing page is populated
-When User enters the City name <Cityname> and Selects <Citynamefull> from autosuggestions
+When User enters the City name "<Cityname>" and Selects "<Citynamefull>" from autosuggestions
 Then Weather information of that City is displayed
+
 Examples:
 | Cityname  | Citynamefull |
 | Chandigarh | Chandigarh, Chandigarh, IN |
@@ -39,7 +40,7 @@ Examples:
 Scenario Outline: Verify Weather information of Various Cities through Accuwether wesite 
 Given User Enters the Url in the browser 
 Then  Landing page is populated
-When User enters the City name <Cityname> and Selects <Citynamefull> from autosuggestions
+When User enters the City name "<Cityname>" and Selects "<Citynamefull>" from autosuggestions
 Then Weather information of that City is displayed
 Examples:
 | Cityname  | Citynamefull |
