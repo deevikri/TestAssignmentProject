@@ -9,14 +9,15 @@ Prerequisites:
 
 Execution:
 •Clone the repository.
-◦git clone https://github.com/BalasaravananP/WeatherAutomation.git
+◦git clone https://github.com/deevikri/TestAssignmentProject.git
 ◦will clone the project under currentPath\WeatherAutomation
-•Open command prompt and go to WeatherAutomation directory.
-•Can run the weather comparison test following ways,
-◦mvn test
-◦mvn test -Dtest=WeatherComparisonTest or
-◦mvn test -Dsurefire.suiteXmlFile=src/test/resources/TestSuites/WeatherComparisonSuite.xml
+Import the Project in any IDE and take Maven update.
+Go to WeatherAutomation\src\test\java\features\AccuweatherLandingpage.feature
+Run the file using Run As option as Junit
 
-Reporting: This framework creates extent report and will be placed at ../WeatherAutomation/HtmlReport/Extent.html
-•Attached sample test execution report 
+Reporting: This framework creates extent report and will be placed at ../WeatherAutomation/test-output/HtmlReport/ExtentHtml.html
+Attached Sample Reports for Reference
+
+Extent Report
+Cucumber-Html Report
 
